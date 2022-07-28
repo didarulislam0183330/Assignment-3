@@ -1,0 +1,47 @@
+/* ======Navbar======= */
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    padding: 10px!important;
+    font-size: 1.2rem;
+    color: gray !important;
+}
+
+
+/* Banner-part */
+.carousel-caption {
+    top:35%;
+}
+
+.carousel-caption h1{
+    font-size: 4rem!important;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;
+    background: rgb(34, 31, 31);
+    opacity: 0.7;
+}
+
+/* seconde card */
+.carousel-control-prev-icon{
+    background-color: rgb(146, 127, 255);
+    margin-left: -60px;
+    border-radius: 5px;
+    overflow: visible;
+}
+
+.carousel-control-next-icon{
+    background-color: rgb(146, 127, 255);
+    margin-right: -70px;
+    border-radius: 5px;
+    overflow: visible;
+}
